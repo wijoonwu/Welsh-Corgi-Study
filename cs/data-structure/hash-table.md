@@ -54,35 +54,35 @@ menu = {
 ## Hash Function
 <img src="https://github.com/wijoonwu/Welsh-Corgi-Study/blob/main/static/img/hash-function.png?raw=true">
 
- **Hash Function**은 가 저장하고 싶은 Key를 숫자로 바꿔준다. 그리고 그 숫자는 Index가 되며, 해당 Index에 Value 가 저장된다.
+ **Hash Function**은 가 저장하고 싶은 `Key`를 숫자로 바꿔준다. 그리고 그 숫자는 `index`가 되며, 해당 `index`에 `Value` 가 저장된다.
 
 무슨 말인지 헷갈릴 수 있으니 다시 메뉴판을 예로 들어서 설명하겠다.
-만약 pizza 의 가격을 저장할 때는 아래와 같다. 
+만약 `pizza` 의 가격을 저장할 때는 아래와 같다. 
 
-1. pizza의 알파벳 글자 수를 센다.
-2. pizza의 글자수 5 -> index 5번에 저장한다.
-3. index 5의 value에 10,000원을 저장한다.
+1. `pizza`의 알파벳 글자 수를 센다.
+2. `pizza`의 글자수 5 -> `index` 5번에 저장한다.
+3. `index` 5의 value에 10,000원을 저장한다.
 
 나중에 pizza 가격이 궁금하다면 아래와 같은 방법으로 찾을 수 있다.
 1. **Hash Function**에 pizza라는 key를 준다.
 2. **Hash Function**은 숫자 5를 알려준다.
-3. Index 5의 Value로 가격을 찾는다.
+3. `index` 5의 Value로 가격을 찾는다.
 
 ### Collision(해쉬 충돌)
-그런데 **Hash Function**에는 한가지 문제점이 있다. 각기 다른 Key에 대하여 Hash Function 이 동일한 숫자를 준 경우 말이다.
+그런데 **Hash Function**에는 한가지 문제점이 있다. 각기 다른 `Key`에 대하여 **Hash Function** 이 동일한 숫자를 준 경우 말이다.
 
-예를 들어 cake를 해쉬 테이블에 넣었다. Hash Function은 index 4를 줬고, value에는 5,000원이 저장됐다. 그런데 나중에 taco도 넣으려고 하니 Hash Function이 또 index 4를 줬고, 해당 자리에는 이미 cake가 있다.
+예를 들어 `cake`를 해쉬 테이블에 넣었다. **Hash Function**은 `index` 4를 줬고, `value`에는 5,000원이 저장됐다. 그런데 나중에 `taco`도 넣으려고 하니 **Hash Function**이 또 `index` 4를 줬고, 해당 자리에는 이미 `cake`가 있다.
 
 <img src="https://github.com/wijoonwu/Welsh-Corgi-Study/blob/main/static/img/collision.png?raw=true">
 
-여러가지 대처법 중 한가지는 바로 index 4의 공간에 또 다른 배열을 넣는 것이다.
-그리고 해당 배열에 2개의 cake와 taco. 2개의 쌍을 저장한다.
-이제 우리 Hash Table 에서 cake의 가격을 찾고자 한다면
-cake 라는 key를 해시 함수에 넣고 4라는 숫자를 받아서
-리스트 4로 이동한 뒤 cake의 가격을 찾을 때까지 선형 검색을 하면 되는 것이다.
-이런 이유 때문에 해쉬 테이블의 시간복잡도가 언제나 O(1) 인 것은 아니지만
+여러가지 대처법 중 한가지는 바로 `index` 4의 공간에 또 다른 배열을 넣는 것이다.
+그리고 해당 배열에 2개의 `cake`와 `taco`. 2개의 쌍을 저장한다.
+이제 우리 **Hash Table** 에서 `cake`의 가격을 찾고자 한다면
+`cake` 라는 key를 해시 함수에 넣고 4라는 숫자를 받아서
+리스트 4로 이동한 뒤 `cake`의 가격을 찾을 때까지 선형 검색을 하면 되는 것이다.
+이런 이유 때문에 해쉬 테이블의 시간복잡도가 언제나 `O(1)` 인 것은 아니지만
 그래도, 여전히 우리는 전반적인 시나리오 중심으로 판단해야하기 때문에
-해쉬 테이블의 시간 복잡도는 상수시간(O(1))이라고 볼 수 있다.
+**Hash Table**의 시간 복잡도는 상수시간(`O(1)`)이라고 볼 수 있다.
 
 
 # Reference
