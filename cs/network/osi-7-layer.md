@@ -14,6 +14,7 @@
 
 ## OSI 7 계층 구조
 <img src="/static/img/osi7.jpg">
+https://faq.hostway.co.kr/Linux_ETC/1434
 1계층부터 7계층으로 이루어진 계층으로 물리, 데이터, 네트워크, 전송, 세션, 응용 계층으로 나누어져있다.
 
 `정처기 준비할 때 물데네전세표응으로 외움(근데 안나옴)`
@@ -103,4 +104,5 @@ TCP와 UDP 프로토콜을 통해 통신을 활성화한다. 포트를 열어두
 
 ## 👀 참고
 http://wiki.hash.kr/index.php/OSI_7_%EA%B3%84%EC%B8%B5
+
 https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md
