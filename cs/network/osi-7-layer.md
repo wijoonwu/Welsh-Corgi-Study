@@ -101,6 +101,4 @@ TCP와 UDP 프로토콜을 통해 통신을 활성화한다. 포트를 열어두
 
 
 ## 👀 참고
-- [위키피디아](http://wiki.hash.kr/index.php/OSI_7_%EA%B3%84%EC%B8%B5
-https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md
-)
+- [위키피디아](http://wiki.hash.kr/index.php/OSI_7_%EA%B3%84%EC%B8%B5https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
