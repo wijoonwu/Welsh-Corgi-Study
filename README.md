@@ -6,8 +6,8 @@
 - 김윤겸([@yoongyum](https://github.com/yoongyum))
 
 ## 👩🏻‍💻 코딩 테스트
-- 
-- 
+- [Python](https://github.com/wijoonwu/Welsh-Corgi-Study/tree/main/coding-test/python)
+
 
 ## 💻 CS
 - 
