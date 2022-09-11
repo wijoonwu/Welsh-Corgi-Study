@@ -10,7 +10,7 @@
 
 
 ## 💻 CS
-- [자료구조]()
+- [자료구조](https://github.com/wijoonwu/Welsh-Corgi-Study/tree/main/cs/data-structure)
 - [알고리즘]()
 - [운영체제]()
-- [네트워크]()
+- [네트워크](https://github.com/wijoonwu/Welsh-Corgi-Study/tree/main/cs/network)
