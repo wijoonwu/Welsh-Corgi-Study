@@ -1,6 +1,8 @@
 # ❓ OSI 7 계층이란?
 <img src="https://github.com/wijoonwu/Welsh-Corgi-Study/blob/main/static/img/osi7.jpg?raw=true">
 
+https://blog.naver.com/PostView.nhn?blogId=pst8627&logNo=221670903384
+
 > OSI 7 계층이란 네트워크에서 통신이 일어나는 과정을 7단계로 나눈 것을 말한다.
 1계층부터 7계층으로 이루어진 계층으로 물리, 데이터, 네트워크, 전송, 세션, 응용 계층으로 나누어져있다. (`물데네전세표응` 으로 외우면 쉽다.)
 
