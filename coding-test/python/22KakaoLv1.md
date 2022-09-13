@@ -60,8 +60,22 @@ def solution(id_list, report, k):
         answer.append(cnt)
     return answer
 ~~~
-### 💬 코드 해설
->
+
 
 ### 💡 새로 알게된 점
+#### 다른사람 풀이 코드
+```py
+def solution(id_list, report, k):
+    answer = [0] * len(id_list)    
+    reports = {x : 0 for x in id_list}
+
+    for r in set(report):
+        reports[r.split()[1]] += 1
+
+    for r in set(report):
+        if reports[r.split()[1]] >= k:
+            answer[id_list.index(r.split()[0])] += 1
+
+    return answer
+ ```
 > report를 set으로 만들어서 처리하는 게 더 좋을 듯 하다.
