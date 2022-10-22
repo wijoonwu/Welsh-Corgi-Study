@@ -42,8 +42,7 @@ def solution(genres, plays):
 
     gen = sorted(gen.items(), key=lambda x: x[1], reverse=True)
     for key, val in gen:  # O(N)
-        genre = sorted(gen2[key], key=lambda x: x[1], reverse=True)[
-            :2]  # O(NlogN) 정렬 후 크기가 최대 2개의 리스트로 반환
+        genre = sorted(gen2[key], key=lambda x: x[1], reverse=True)[:2]  # O(NlogN) 정렬 후 크기가 최대 2개의 리스트로 반환
         for tuples in genre:
             answer.append(tuples[0])
     return answer
